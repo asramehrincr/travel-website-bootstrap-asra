@@ -1,0 +1,458 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* overflow-x: hidden; */
+}
+
+.landing {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url("https://bbaesthetic.com/wp-content/uploads/2022/08/young-girl-tourist-travels-2022-01-19-00-23-44-utc.jpg");
+    width: 100%;
+    height: 1000px;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+#world-map{
+    background-color: black;
+}
+.nav-item a {
+    color: white;
+}
+.nav-item:hover{
+    color: #ae7060;
+    background-color: rgb(196, 137, 137);
+}
+
+.title {
+    margin-top: 200px;
+    text-align: center;
+    justify-content: center;
+    /* display: inline-block; */
+
+}
+
+.body-tag {
+    margin-right: 10px;
+    color: white;
+    font-family: "Cedarville Cursive", cursive;
+}
+
+#bold {
+    font-size: 60px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.explorebtn:hover{
+    background-color: white;
+    color: brown;
+}
+.title a {
+    color: white;
+    text-decoration: none;
+    background-color: rgb(211, 95, 95);
+    padding: 10px;
+}
+#features{
+    margin-top: 70px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 80px;
+}
+.heading{
+    background-color: black;
+    /* margin-top: 50px;  */
+    font-size: 50px; 
+    text-align: center;
+    margin-bottom: 50px;
+    /* font-family: "Playwrite SK"; */
+}
+.heading span{
+    font-size: 20px;
+    color: #ae7060;
+    font-family: "Playwrite SK";
+}
+.feature-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 10px;
+    /* background-color: black; */
+}
+.feature-list{
+    background-color: #dac1b9;
+    padding: 20px;
+}
+.feature-list a{
+    /* background-color: grey; */
+    font-size: 20px;
+    color: #92897f;
+    text-align: center;
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+.img-size{
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+}
+.feature-list img{
+    width: 100%;
+    height: 100%;
+}
+#offer{
+   
+    background-color: black;
+}
+.offer-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.offer-bx-style{
+    width: 300px;
+    height: 280px;
+    border-radius: 10px;
+
+}
+.offer-item1{
+    background:  linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),url("https://img.freepik.com/free-photo/close-up-passport-traveling_23-2148927402.jpg?w=996&t=st=1718802332~exp=1718802932~hmac=e457d6177e2e239b17206949df74000495ee5ac2d7eb529c127eb1aa403bb971");
+    background-position:center;
+    background-size: cover;
+}
+.offer-item2{
+    background:  linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),url("https://img.freepik.com/free-photo/mid-shot-female-with-hat-walking-nature_23-2148752410.jpg?t=st=1718802576~exp=1718806176~hmac=5afa7d2891e54dba93a28c48884bb153f5f29993d5dbbbcc492b4e5f574fa36e&w=996");
+    background-position:center;
+    background-size: cover;
+}
+.offer-item3{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),url("https://i.pinimg.com/736x/5d/1f/d6/5d1fd6ad9b19b228474f235e781e1299.jpg ");
+    background-position:center;
+    background-size: cover;
+}
+.offer-item4{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),url("https://img.freepik.com/free-photo/close-up-luggage-prepared-trips-with-camera_23-2148927421.jpg?w=996&t=st=1718802344~exp=1718802944~hmac=9ac7811402c1ebc3046925305dc4d6df9e2d2c8d08c0bc80e5344d244c201735 ");
+    background-position:center;
+    background-size: cover;
+}
+.offer-bx-style {
+padding: 20px;
+
+}
+.offer-name{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Playwrite SK";
+    margin-top: 50px;
+
+
+}
+
+.offer-bx-style p{
+    color: #dac1b9;
+    font-weight: bold;
+}
+.offer-bx-style:hover{
+    transform: scale(1.1); 
+}
+
+
+.map-contents{
+padding: 80px;
+background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("https://wallpapers.com/images/hd/cool-vintage-72rbozzisdiprrap.jpg"); 
+background-position: center;
+background-size: cover;
+}
+.col h1{
+    font-size: 20px;
+    color: #c0a8a2;
+    
+}
+.col p{
+    margin-top: 10px;
+    color:  #ae7060;
+    
+}
+.container{
+    width: 100%;
+}
+.testimonials{
+    width: 100%;
+background-image:linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),  url("https://demo2.pavothemes.com/triply/wp-content/uploads/2022/09/h5_bg-3.jpg"); 
+background-position: center;
+background-size: cover;
+
+}
+.review{
+    background-color: rgba(226, 189, 170, 0.5);
+    border-radius: 10px;
+    padding: 20px;
+}
+.col1 h1{
+    color: rgb(168, 152, 152);
+    font-size: 40px; 
+    text-align: center;
+    
+}
+.col1 span{
+    font-size: 20px;
+    color: #d49687;
+    font-family: "Playwrite SK";
+}
+.review p{
+    font-size: 20px;
+    justify-content: left;
+    color: #503d27;
+}
+.customer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2rem;
+}
+.cust-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.cust-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.cust-name h1{
+    color: black;
+    font-weight: bold;
+}
+.cust-name h2{
+    font-size: 15px;
+    color: #c99386;
+}
+
+
+
+.carousel-inner .carousel-item img {
+    height: 500px; /* Set a fixed height for the images */
+    object-fit: cover; /* Ensure the images cover the space without distortion */
+    width: 100%;
+}
+.image-container {
+    position: relative;
+}
+.image-caption {
+    position: absolute;
+    top: 40%; /* Adjust this value as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+    color: white; /* Adjust text color as needed */
+    width: 70%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 10px; 
+    border-radius: 5px; /* Optional: Add border radius */
+    text-align: center;
+}
+.image-caption p{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+
+@media screen and (max-width: 540px) {
+    .carousel-inner .carousel-item img {
+        height: 200px; /* Set a fixed height for the images */
+        object-fit: cover; /* Ensure the images cover the space without distortion */
+        width: 100%;
+    }
+
+    .image-caption {
+      
+        top: 30%; /* Adjust this value as needed */
+        width: 50%;
+        
+    }
+    .image-caption p{
+        font-size: 13px;
+        
+    }
+}
+.youtube{
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-evenly;
+   padding: 20px;
+}
+.services h3{
+color: aliceblue;
+}
+.servicce-icon{
+    color: #ae7060;
+    font-size: 50px;margin-bottom: 20px;
+}
+.services p{
+    color: #ae7060;
+}
+.sign-up{
+    text-align: center;
+    margin-top: 60px;
+    padding: 20px;
+}
+.sign-up h2{
+    color: #ae7060;
+}
+.sign-up h3{
+    color: aliceblue;
+}
+.signup {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo p{
+text-align: justify;
+color: rgb(223, 217, 212);
+}
+.links h3{
+    color: white;
+    font-size: 20px;
+}
+.links a{
+    text-align: start;
+    display: block;
+    text-decoration: none;
+    color: #ae7060;
+}
+.service-cont{
+    background: linear-gradient(rgba(146, 127, 127, 0.9), rgba(0, 0, 0, 0.9));
+   padding: 20px;
+}
+.map-cont{
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: center;
+    align-items: center;
+}
+.copyright{
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+}
+
+@media screen  and  (max-width: 320px) {
+    .map-img img{
+        width: 200px;
+        height: 100px;
+    }
+.title {
+    margin-top: 50px;
+
+}
+.heading{
+    font-size: 40px;
+    
+}
+.offer-box{
+    padding: 20px;
+}
+.youtube iframe{
+     width:250px;
+     height: 300px;
+     margin: 10px;
+}
+.review{
+    width: 30px;
+}
+.navbar-toggler{
+    margin-right: 0px;
+}
+.navlogo h1{
+    font-size: 20px;
+}
+}
+.navlogo h1{
+    display: inline-block;
+    color: #e5dfdc;
+    text-shadow: 2px 2px 4px rgba(208, 134, 78, 0.5);
+}
+
+@media screen and (max-width:576px) {
+    .map-img img{
+        width: 400px;
+        height: 200px;
+    }
+    .navbar-toggler{
+        margin-right: 0px;
+    }
+    .navlogo h1{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:850px) {
+    .map-img img{
+        width: 300px;
+        height: 180px;
+    }
+}
+
+
+
+/* .adv-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.adv-image{
+    width: 50%;
+    height: 50%;
+}
+
+.head1 h2{
+    font-family: "Playwrite SK";
+    color: rgb(185, 75, 75);
+    font-size: 23px;
+}
+.head2 h1{
+    font-family: "Poppins", sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.head-about{
+    width:100%;
+    background-color: yellow;
+}
+.head-about p{
+    text-align: justify;
+    font-size: 20px;
+    overflow: hidden;
+}
+.div-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    
+}
+.adv-icon{
+    font-size: 30px;
+    color: rgb(98, 34, 34);
+}
+.adv-box{
+    box-shadow: 0px 0px 10px 0px rgb(227, 206, 206);
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.content h2{
+    font-size: 20px;
+} */
